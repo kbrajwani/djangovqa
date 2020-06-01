@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+
+body {
+    background-image: linear-gradient(to left, #c31432, #240b36);
+    font-family: Roboto;
+    color: white;
+    font-size: 100%;
+}
+
+.card {
+    background-color: transparent;
+    border-width: thin;
+    border-color: white;
+    width: 35%;
+}
+
+span {
+    color: white;
+    font-style: italic;
+}
+
+small a {
+    color: white;
+}
+
+small a:hover {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: white;
+    color: #03fcfa;
+}
+
+.type-txt {
+    background-color: transparent;
+    border-width: thin;
+    border-color: white;
+    width: 40%;
+    color: white;
+}
+
+.display-3 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    font-family: 'Lobster', cursive;
+}
+
+.btn-outline-warning {
+    color: #e9ecef;
+    border-color: #e9ecef;
+}
+
+.btn-outline-warning:hover {
+    background-color: #e9ecef;
+    color: black;
+    border-color: #e9ecef;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .card, .type-txt {
+        background-color: transparent;
+        border-width: thin;
+        border-color: white;
+        width: 100%;
+    }
+
+    .display-3 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+}
+
+#blah {
+    display: block;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    width: 50%;
+    position: relative;
+}
